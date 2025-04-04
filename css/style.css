@@ -1,1 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+  /* Style page content */
+#main {
+    transition: margin-left .5s;
+    overflow:hidden;
+    width:100%;
+  }
+body {
+    overflow-x: hidden; /* avoid horizontal scroll*/
+    color:lightgray;
+    background-color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
