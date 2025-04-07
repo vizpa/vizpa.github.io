@@ -23,12 +23,18 @@ function loadContent(page) {
 
             // ✅ Only run for the contact page
             if (page === "contact") {
-                if (typeof initContactForm === "function") {
-                    initContactForm();
-                } else {
-                    console.error("initContactForm is not defined.");
-                }
+                // Dynamically load EmailJS SDK
+                const emailJsScript = document.createElement("script");
+                emailJsScript.src = "https://cdn.emailjs.com/sdk/3.2/email.min.js";
+                emailJsScript.onload = function () {
+                    // Now load your contact form logic
+                    const contactLogic = document.createElement("script");
+                    contactLogic.src = "scripts/contact.js";
+                    document.body.appendChild(contactLogic);
+                };
+                document.body.appendChild(emailJsScript);
             }
+
 
             // Scroll to top
             window.scrollTo(0, 0);
