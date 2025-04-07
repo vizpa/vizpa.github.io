@@ -3,13 +3,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://paolavizcarra.me/</loc>
+    <loc>https://vizpa.github.io/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>http://paolavizcarra.me/index.html</loc>
+    <loc>https://vizpa.github.io/index.html</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
