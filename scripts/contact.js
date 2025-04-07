@@ -1,27 +1,29 @@
 function initContactForm() {
-    const form = document.getElementById("mail");
+    console.log("🔧 initContactForm is running...");
 
+    emailjs.init("2JkUpaGCr2du8Qvw5"); // replace with actual key
+
+    const form = document.getElementById("contact-form");
     if (!form) {
-        console.warn("⏳ Form not ready yet. Retrying...");
-        setTimeout(initContactForm, 300); // Keep retrying every 300ms
+        console.warn("⚠️ Form not found");
         return;
     }
 
-    emailjs.init("2JkUpaGCr2du8Qvw5"); // Replace with your public key
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-    form.addEventListener("submit", function (e) {
-        e.preventDefault();
+        console.log("📨 Form submitted");
 
         emailjs.sendForm("service_qf6n0gv", "template_tzp68ua", form)
             .then(() => {
                 alert("✅ Message sent successfully!");
                 form.reset();
-            })
-            .catch((error) => {
-                console.error("❌ Email send failed:", error);
-                alert("Oops! Something went wrong while sending your message. Please try again later.");
+            }, (error) => {
+                console.error("❌ EmailJS error:", error);
+                alert("Failed to send message.");
             });
     });
 }
 
-document.addEventListener("DOMContentLoaded", initContactForm);
+// 👇 make sure it's globally accessible
+window.initContactForm = initContactForm;
