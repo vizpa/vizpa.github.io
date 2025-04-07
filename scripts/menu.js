@@ -21,10 +21,6 @@ function loadContent(page) {
             // Load the HTML content into the main container
             document.getElementById("main-content").innerHTML = data;
 
-            if (page === "contact") {
-                initContactForm();
-            }
-
             // Scroll to top
             window.scrollTo(0, 0);
 
@@ -77,7 +73,7 @@ function loadContent(page) {
                 }
             }
         })
-
+        
         .catch(error => {
             console.error('Error loading content:', error);
             document.getElementById("main-content").innerHTML = `<h2>Page not found</h2>`;
