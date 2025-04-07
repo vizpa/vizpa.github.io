@@ -1,0 +1,37 @@
+/* Dropdown container for the submenu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* submenu.css */
+.submenu {
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    background-color: #fff; /* or whatever color fits your theme */
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effects on submenu links */
+.submenu a:hover {
+    color: #ff0033;
+    background-color: paleturquoise;
+}
+
+/* Active submenu link styling */
+.submenu a.active-submenu {
+    background-color: #ff0033;
+    color: white;
+}
+
+

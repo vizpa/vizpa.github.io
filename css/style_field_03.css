@@ -1,0 +1,22 @@
+#field_03 {
+    padding: 20px 40px 20px 80px;
+    background-color: paleturquoise;
+} 
+ul.exp {
+    list-style-type: circle;
+}
+#skills {
+    float: right;
+    height: auto;
+    width: 600px;
+}
+@media (max-width:700px) {
+    #skills {
+        float: none;
+        width: 400px;
+    }
+}
+.right {
+    
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+#objective {
+  min-height: 100px;
+  background-image: url("../images/lineal_one.svg"), url("../images/lineal_two.svg"),
+  url("../images/lineal_three.svg"), url("../images/lineal_four.svg"),
+  url("../images/lineal_five.svg"), url("../images/lineal_top.svg");
+  -webkit-animation: lineAcross 20s linear infinite;
+}
+
+#field_01 {
+  height: auto;
+}
+#introText { 
+  background-color: #ff0033;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 0 15px 20px 25px;
+}
+
+ul {
+  list-style-position: inside;
+  text-indent: -15px;
+}
+
+@keyframes lineAcross {
+  from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+  to { background-position: -1000px 0, 900px 0, 800px 0, 600px 0, -2000px 0, 1000px 0; }
+}
+
+@keyframes lineAcross2 {
+  from { background-position: 0; }
+  to { background-position: -2000px; }
+}

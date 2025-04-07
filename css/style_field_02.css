@@ -1,0 +1,16 @@
+#field_02 {
+    background-image: url("../images/field_02.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: auto 100%;
+    color:paleturquoise;
+} 
+
+#welcome {
+    padding: 180px 10px;
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-family: 'Libre Baskerville', serif;
+}
+

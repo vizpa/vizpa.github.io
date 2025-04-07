@@ -1,0 +1,53 @@
+#credits {
+    padding: 30px 75px 10px;
+    color:paleturquoise;
+    min-height: 111px;
+}
+#smLogo {
+    height: 60px;
+    vertical-align: middle;
+}
+.cr_row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* 2 columns */
+.cr_column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+#cr_column_2 {
+    text-align: right;
+    padding-top: 17px;
+}
+
+.cntct_ic {
+    padding: 0 0 20px 20px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+
+
+.space{
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .space{
+      display: inline-block;
+    }
+    #credits {
+        min-height: 215px;
+    }
+    #cr_column_2 {
+        padding-top: 5px;
+    }
+}

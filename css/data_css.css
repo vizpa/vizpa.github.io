@@ -1,0 +1,34 @@
+.blue-container {
+    background-color: #ff0033;
+    padding: 40px 0; /* Top and bottom space */
+    display: flex;
+    justify-content: center;
+}
+
+.scroll-wrapper {
+    overflow: auto;
+    background-color: #000000;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  
+    /* 👇 Narrower width */
+    width: 90%;
+    max-width: 910px;
+  }
+  
+  /* 👇 Keep the object wide so it triggers horizontal scroll */
+  .scrollable-object {
+    min-width: 1000px;
+    height: 80vh;
+    border: none;
+    display: block;
+  }
+
+  @media (max-width:700px) {
+    .scroll-wrapper {
+        width: 98%;
+    }
+}
+  
+  

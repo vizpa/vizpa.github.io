@@ -1,5 +1,6 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,11 +14,44 @@
   }
 body {
     overflow-x: hidden; /* avoid horizontal scroll*/
-    color:lightgray;
     background-color: black;
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-size: cover;
     height: 100vh;
-    align-items: center;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+}
+#container-top
+{
+    height: 45px;
+    background: white;
+}
+#container-btm
+{   
+    height: auto;
+    background: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+@media (max-width:700px) {
+    #container-top
+    {
+        height: 30px;
+    }
+    #container-btm
+    {
+        height: 94%;
+    }
+}
+.red {
+    color: #ff0033;
+}
+
+.fifty:before {
+    height: 50px;
+    display: block;
+    content: '';
 }

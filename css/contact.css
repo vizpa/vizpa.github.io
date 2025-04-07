@@ -1,0 +1,30 @@
+#contact_01 {
+    background-color: paleturquoise;
+}
+#sendMail {
+    padding: 40px;
+}
+#formBtm {
+    background-image: url("../images/img_contact/bottom.svg");
+    background-size: 310px;
+    min-height: 80px;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+#formBtm.input[type=button], input[type=submit], input[type=reset] {
+    background-color: #ff0033;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input {
+    max-width: 100%;
+}
+textarea {
+    max-width: 100%;
+}

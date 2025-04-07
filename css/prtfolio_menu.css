@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+#prtfolio_menu {
+    padding: 40px 75px 40px;
+    font-family: 'Libre Baskerville', serif;
+    color: paleturquoise;
+    text-align: center;
+    min-height: 111px;
+}
+
+.btnPrtfolio {
+    height: 120px;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+#prtfolio_header {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-align: center;
+    min-height: 111px;
+}
+
+#prtfolio_btm {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-align: center;
+}
+
+.imgPrtfolio {
+    width: 60% !important;
+    height: auto !important;
+    max-width: 600px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid #ff0033;
+    display: block;
+    margin: 0 auto;
+    /* Optional: centers the image */
+}
+
+h5.prtfolio_header {
+    background: rgb(255, 255, 255, .4);
+}
+
+a.prtfolio_header:link {
+    color: rgb(94, 177, 177);
+}
+
+a.prtfolio_header:visited {
+    color: rgb(94, 177, 177);
+    text-decoration: none;
+}
+
+a.prtfolio_header:hover {
+    color: #ff0033;
+}
+
+/* Mini menu Red background*/
+#mini-menu_red {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #mini-menu_red .mini-link {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 4px 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  #mini-menu_red .mini-link:hover {
+    color: white;
+    text-shadow: 0 0 3px #7a0202, 0 0 5px #7a0202;
+    background-color: #ff0033;
+  }
+  
+  /* Active state */
+  #mini-menu_red .mini-link.active {
+    color: white;
+    background-color: #ff0033;
+    text-shadow: 0 0 3px #7a0202, 0 0 5px #7a0202;
+  }
+
+/* Mini menu Black background*/
+#mini-menu_black {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #mini-menu_black .mini-link {
+    margin: 0 10px;
+    color: paleturquoise;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 4px 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  #mini-menu_black .mini-link:hover {
+    color: white;
+    text-shadow: 0 0 3px #7a0202, 0 0 5px #7a0202;
+    background-color: black;
+  }
+  
+  /* Active state */
+  #mini-menu_black .mini-link.active {
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 3px #7a0202, 0 0 5px #7a0202;
+  }
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+    .imgPrtfolio {
+        width: 80% !important;
+        padding: 7px;
+    }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .imgPrtfolio {
+        width: 100% !important;
+        padding: 4px;
+    }
+}

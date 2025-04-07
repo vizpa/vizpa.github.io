@@ -1,0 +1,155 @@
+#blue_bk {
+  background-color: paleturquoise;
+  background-image: url("../images/flor_bak_02.svg"), 
+    url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+    url("../images/flor_bak_01.svg");
+  background-repeat: no-repeat;
+  background-position-x: -350px, 750px, 300px, -30px;
+  background-position-y: -350px, 30px, 300px, 500px;
+  background-size: 80%, 15%, 120%, 50%;
+  background-blend-mode: soft-light;
+  color: black;
+  text-align: center;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myWorkContainer {
+  width: 80%;
+  margin: 2rem auto; 
+}
+
+.gallery {
+    width: 30% !important;
+    max-width: 150px;
+    height: auto !important;
+    margin: 10px;
+    padding: 2px;
+    background-color: #ff0033;
+    border: 10px;
+}
+
+.pf_logo {
+    width: 100% !important;
+    height: auto !important;
+    padding: 15px 10px;
+    background-color:black;
+    border: 2px solid #ff0033;
+}
+.pf_btm {
+  display: block;       /* Ensures each image is on a new line */
+  margin: 0 auto;       /* Centers it horizontally */
+  max-width: 180px;
+  height: auto !important;
+  padding: 0 0 10px;
+}
+
+.pf_container {
+  text-align: center;   /* Centers everything inside the div */
+}
+
+  
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    #blue_bk {
+      background-image: url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+        url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+        url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg");
+      background-repeat: no-repeat;
+      background-position-x: -150px, 350px, 300px, -20px, 20px,
+                             -260px, 320px, -10px, -200px, 250px,
+                             30px, -150px, 350px, 300px, -20px;
+      background-position-y: -50px, 300px, 400px, 900px, 600px,
+                             1200px, 1100px, 2000px, 2300px, 1500px,
+                             2100px, 3000px, 3050px, 3300px, 3700px, /* mid */
+                             4050px, 4100px, 4400px, 4700px, 5050px,
+                             5300px, 5000px, 5600px, 5900px, 5200px,
+                             5600px, 6400px, 6500px, 6750px, 6800px,
+                             7200px, 7200px, 7400px, 7700px, 7960px;
+      background-size: 80%, 30%, 120%, 50%, 30%,
+                       90%, 20%, 50%, 100%, 75%,
+                       150%, 70%, 30%, 75%, 80%;
+    }
+}
+  
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    #blue_bk {
+      background-image: url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"),
+      url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg"), 
+      url("../images/flor_bak_01.svg"), url("../images/flor_bak_02.svg");
+      background-repeat: no-repeat;
+      background-position-x: -100%, 110%, 100%, -130%, 10%,
+                             -150%, 90%, -50%, -50%, 120%,
+                             -100%, -70%, 110%, 150%, -50%;
+      background-position-y: -50px, 300px, 400px, 900px, 600px,
+                             1200px, 1200px, 2000px, 2700px, 1500px,
+                             2100px, 3200px, 3150px, 3500px, 3750px, /* mid */
+                             4150px, 4100px, 4500px, 4700px, 5050px,
+                             5450px, 5000px, 5700px, 6000px, 5100px,
+                             5600px, 6400px, 6500px, 6750px, 6800px,
+                             7200px, 7200px, 7400px, 7700px, 7960px,
+                             8100px, 8400px, 8530px, 8750px, 8250px,
+                             8900px, 9400px, 9400px, 9700px, 9960px,
+                             10000px, 10100px, 10300px, 10400px, 10800px;
+      background-size: 80%, 30%, 120%, 50%, 30%,
+                       90%, 20%, 50%, 100%, 75%,
+                       150%, 70%, 30%, 75%, 80%;
+    }
+}
