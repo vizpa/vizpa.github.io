@@ -21,6 +21,3 @@ function initContactForm() {
             });
     });
 }
-
-// Expose it to global scope
-window.initContactForm = initContactForm;
