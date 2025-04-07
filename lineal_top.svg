@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="100px" viewBox="0 0 1000 100" enable-background="new 0 0 1000 100" xml:space="preserve">
+<g id="top">
+	<path fill="none" d="M1000,98.879"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="383.9995" y1="164" x2="383.9995" y2="207.793" gradientTransform="matrix(1 0 0 -1 116 264)">
+		<stop  offset="0.2878" style="stop-color:#FF0033"/>
+		<stop  offset="1" style="stop-color:#7C0033;stop-opacity:0.7"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M1000,81.351c-56.715,0.701-291.354-40.286-455.104-19.018
+		c-42.461,4.469-102.894,34.494-358.579,3.227C57.77,49.84,56.715,80.649,0,81.351v0.138V100h1000"/>
+</g>
+</svg>
