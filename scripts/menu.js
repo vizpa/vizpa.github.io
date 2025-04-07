@@ -21,6 +21,15 @@ function loadContent(page) {
             // Load the HTML content into the main container
             document.getElementById("main-content").innerHTML = data;
 
+            // ✅ Only run for the contact page
+            if (page === "contact") {
+                if (typeof initContactForm === "function") {
+                    initContactForm();
+                } else {
+                    console.error("initContactForm is not defined.");
+                }
+            }
+
             // Scroll to top
             window.scrollTo(0, 0);
 
