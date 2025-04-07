@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="600px" height="100px" viewBox="0 0 600 100" enable-background="new 0 0 600 100" xml:space="preserve">
+<g id="four">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="183.9995" y1="171.7637" x2="183.9995" y2="230.9658" gradientTransform="matrix(1 0 0 -1 116 264)">
+		<stop  offset="0.5393" style="stop-color:#FF0033"/>
+		<stop  offset="1" style="stop-color:#FFD633"/>
+	</linearGradient>
+	<path opacity="0.4" fill="url(#SVGID_1_)" enable-background="new    " d="M0,37.975c0,0,89.676,26.608,165.073,3.945
+		C274.398,9.059,285.019,77.938,326.876,77.517C368.15,77.101,519.399,16.935,600,37.888V37.73v48.665
+		c-46.714-2.479-80.507-9.909-117.633-16.113c-70.275-11.747-123.284,20.594-155.519,21.835
+		C290.676,95.664,275.7,18.69,164.7,67.356v0.015C80.7,104.227,57.994,89.594,0,86.518V37.975z"/>
+</g>
+</svg>
