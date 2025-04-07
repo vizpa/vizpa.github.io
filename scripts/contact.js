@@ -7,7 +7,7 @@ function initContactForm() {
         return;
     }
 
-    // Initialize EmailJS
+    // Initialize EmailJS: https://dashboard.emailjs.com/admin
     emailjs.init("2JkUpaGCr2du8Qvw5"); // Your public key
 
     form.addEventListener("submit", function (e) {
