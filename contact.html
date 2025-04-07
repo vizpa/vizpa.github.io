@@ -1,0 +1,42 @@
+<!-- Main Content -->
+<div id="main">
+    <div class="container-btm" id="container">
+        <section id="contact_01">
+            <div id="sendMail">
+                <h2>Contact Me</h2>
+
+                <p>Have questions? Comments?<br>
+                    It would be a pleasure to hear from you!<br><br>
+                </p>
+
+                <form id="mail">
+                    <div class="elem-group">
+                        <label for="name">Name:<br></label>
+                        <input type="text" size="50" id="name" name="name" placeholder="Your name"
+                            pattern="[A-Za-z\s]{2,30}" required>
+                    </div>
+                    <br>
+                    <div class="elem-group">
+                        <label for="email">Email:<br></label>
+                        <input type="email" size="50" id="email" name="email" placeholder="yourname@email.com"
+                            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required>
+                    </div>
+                    <br>
+                    <div class="elem-group">
+                        <label for="message">Comments:<br></label>
+                        <input type="text" size="50" id="sibject" name="title" placeholder="Your name"
+                            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required>
+                    </div>
+                    <br>
+                    <div class="elem-group">
+                        <label for="message">Comments:<br></label>
+                        <textarea id="message" name="message" rows="10" cols="100" wrap="virtual"
+                            placeholder="Leave a message..." required></textarea>
+                    </div>
+                    <input type="submit" name="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+
