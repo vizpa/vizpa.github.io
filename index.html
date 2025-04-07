@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Paola Vizcarra, Data Analytics, Web and Python Developer">
+    <meta name="keywords" content="Paola, Vizcarra, Python, Excel, SQL, HTML, CSS, JavaScript, developer, designer">
+    <meta name="author" content="Paola Vizcarra">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics & UX Design Portfolio | Python, Excel | Paola Vizcarra</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style_intro.css">
+    <link rel="stylesheet" type="text/css" href="css/style_field_01.css">
+    <link rel="stylesheet" type="text/css" href="css/style_field_02.css">
+    <link rel="stylesheet" type="text/css" href="css/style_field_03.css">
+    <link rel="stylesheet" type="text/css" href="css/prtfolio_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/bk_blue.css">
+    <link rel="stylesheet" type="text/css" href="css/bk_red.css">
+    <link rel="stylesheet" type="text/css" href="css/ux.css"> <!-- UX Page -->
+    <link rel="stylesheet" type="text/css" href="css/data_css.css"> <!-- Data Analytics Page -->
+    <link rel="stylesheet" type="text/css" href="css/credits.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css"> <!-- Contact Page -->
+    <script type="text/javascript" src="scripts/menu.js"></script>
+
+    <!-- JavaScript Files -->
+    <script type="text/javascript" src="scripts/menu.js"></script>
+    <script type="text/javascript" src="scripts/submenu.js"></script>
+    <script type="text/javascript" src="scripts/myLogo.js"></script>
+    <script type="text/javascript" src="scripts/prtfolioImage.js"></script> <!-- Portfolio Images -->
+    <script type="text/javascript" src="scripts/validator.js"></script> <!-- Contact Page -->
+
+    <script type="text/javascript" src="scripts/field.js"></script>
+    <script type="text/javascript" src="scripts/fieldHeader.js"></script>
+    <script type="text/javascript" src="scripts/headerText.js"></script>
+    <script type="text/javascript" src="scripts/introText.js"></script>
+
+
+ <!-- Load EmailJS SDK first -->
+<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+<!-- Load your form logic -->
+<script src="scripts/contact.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("home.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("main-content").innerHTML = data;
+                    window.scrollTo(0, 0); // Scroll to the top after loading content
+                })
+                .catch(error => console.error("Error loading content:", error));
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 🟢 Responsive Top Navigation -->
+    <header>
+        <nav class="topnav">
+            <a href="#" onclick="loadContent('home')"><img id="logo_bn" src="images/logo_bn.svg"
+                    alt="Paola Vizcarra logo"></a>
+            <div class="nav-links">
+                <a href="#" onclick="loadContent('home')">Home</a>
+                <div class="dropdown">
+                    <a href="javascript:void(0)" onclick="toggleTopSubmenu(event)">Portfolio &#9662;</a>
+                    <div class="submenu" id="portfolio-submenu">
+                        <a href="#" id="submenu-data" onclick="loadContent('prtf_data')">Data Analytics</a>
+                        <a href="#" id="submenu-ux" onclick="loadContent('prtf_ux')">User Experience</a>
+                        <a href="#" onclick="loadContent('prtf_web')">User Interface</a>
+                        <a href="#" onclick="loadContent('prtf_photo')">Photography</a>
+                    </div>
+                </div>
+                <a href="#" onclick="loadContent('contact')">Contact</a>
+            </div>
+
+            <!-- icons -->
+            <div id="topnav_icn">
+                <a href="https://www.linkedin.com/in/paola-vizcarra-0421041b4/" target="_blank" title="LinkedIn">
+                    <img class="menu_ic" src="images/img_contact/linkedin_ic.svg" alt="Linkedin"
+                        onmouseover="swapIcon(this, 'images/img_contact/linkedin_ic2.svg');"
+                        onmouseout="swapIcon(this, 'images/img_contact/linkedin_ic.svg');">
+                </a>
+                <a href="PaolaVizcarra.pdf" target="_blank" title="My Resume">
+                    <img class="menu_ic" src="images/img_contact/cv_ic.svg" alt="Resume"
+                        onmouseover="swapIcon(this, 'images/img_contact/cv_ic2.svg');"
+                        onmouseout="swapIcon(this, 'images/img_contact/cv_ic.svg');">
+                </a>
+                <a href="https://github.com/vizpa/" target="_blank" title="Github">
+                    <img class="menu_ic" src="images/img_contact/ic_git.svg" alt="Github"
+                        onmouseover="swapIcon(this, 'images/img_contact/ic_git2.svg');"
+                        onmouseout="swapIcon(this, 'images/img_contact/ic_git.svg');">
+                </a>
+            </div>
+
+            <!-- 🟢 Burger Menu Button (Visible < 700px) -->
+            <a class="menu-btn" onclick="openNav()">
+                <svg width="30" height="25" id="icoOpen">
+                    <path d="M0,5 30,5" stroke="#ff0033" stroke-width="2" />
+                    <path d="M0,14 30,14" stroke="#ff0033" stroke-width="2" />
+                    <path d="M0,23 30,23" stroke="#ff0033" stroke-width="2" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <!-- 🟢 Side Navigation Menu (For < 700px Screens) -->
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" onclick="loadContent('home')">Home</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)" onclick="toggleSideSubmenu(event)">Portfolio &#9662;</a>
+            <div class="submenu" id="side-portfolio-submenu">
+                <a href="#" id="submenu-data-side" onclick="loadContent('prtf_data')">Data Analytics</a>
+                <a href="#" id="submenu-ux-side" onclick="loadContent('prtf_ux')">User Experience</a>
+                <a href="#" onclick="loadContent('prtf_web')">User Interface</a>
+                <a href="#" onclick="loadContent('prtf_photo')">Photography</a>
+            </div>
+        </div>
+        <a href="#" onclick="loadContent('contact')">Contact</a>
+        <div class="sidnav_ic">
+            <a href="https://www.linkedin.com/in/paola-vizcarra-0421041b4/" target="_blank" title="LinkedIn"
+                class="icn_bk">
+                <img class="menu_ic" src="images/img_contact/linkedin_ic.svg" alt="Linkedin"
+                    onmouseover="swapIcon(this, 'images/img_contact/linkedin_ic2.svg');"
+                    onmouseout="swapIcon(this, 'images/img_contact/linkedin_ic.svg');">
+            </a>
+            <a href="PaolaVizcarra.pdf" target="_blank" title="My Resume" class="icn_bk">
+                <img class="menu_ic" src="images/img_contact/cv_ic.svg" alt="Resume"
+                    onmouseover="swapIcon(this, 'images/img_contact/cv_ic2.svg');"
+                    onmouseout="swapIcon(this, 'images/img_contact/cv_ic.svg');">
+            </a>
+            <a href="https://github.com/vizpa/" target="_blank" title="Github" class="icn_bk">
+                <img class="menu_ic" src="images/img_contact/ic_git.svg" alt="Github"
+                    onmouseover="swapIcon(this, 'images/img_contact/ic_git2.svg');"
+                    onmouseout="swapIcon(this, 'images/img_contact/ic_git.svg');">
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content Area (Dynamically Loaded) -->
+    <div id="main">
+        <div id="main-content">
+            <p>Welcome! Click on the menu to load content.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="credits">
+        <div class="cr_row">
+            <div class="cr_column">
+                <p>
+                    <img id="smLogo" src="images/logo_Paola.svg" alt="Paola">
+                    <br class="space" />Paola Vizcarra
+                    <br class="space" />&copy; 2025
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
