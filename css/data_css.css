@@ -20,7 +20,7 @@
   /* 👇 Keep the object wide so it triggers horizontal scroll */
   .scrollable-object {
     min-width: 1000px;
-    height: 80vh;
+    min-height: 80vh;
     border: none;
     display: block;
   }
