@@ -7,6 +7,7 @@
 
 .scroll-wrapper {
     overflow: hidden;
+    height: 80vh;
     background-color: #000000;
     padding: 10px;
     margin: 10px auto;
@@ -20,7 +21,9 @@
   /* 👇 Keep the object wide so it triggers horizontal scroll */
   .scrollable-object {
     min-width: 1000px;
-    height: 80vh;
+    height: 100%;         /* 👈 fill wrapper */
+    overflow-y: auto;     /* 👈 scroll happens here */
+    /* height: 80vh; */
     border: none;
     display: block;
   }
