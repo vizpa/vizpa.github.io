@@ -21,6 +21,7 @@
   .scrollable-object {
     min-width: 1000px;
     height: 80vh;
+    overflow-y: auto;
     border: none;
     display: block;
   }
