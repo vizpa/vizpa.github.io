@@ -14,7 +14,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   
     /* 👇 Narrower width */
-    width: 90%;
+    width: 96%;
     max-width: 910px;
   }
   
@@ -22,7 +22,7 @@
   .scrollable-object {
     min-width: 1000px;
     height: 100%;         /* 👈 fill wrapper */
-    padding: 10px;
+    padding: 4px;
     overflow-y: auto;     /* 👈 scroll happens here */
     /* height: 80vh; */
     border: none;
