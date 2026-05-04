@@ -6,25 +6,27 @@
 }
 
 .scroll-wrapper {
-    overflow: auto;
+    overflow-x: auto;   /* horizontal scroll */
+    overflow-y: auto;   /* vertical scroll */
+    
     height: 100vh;
     background-color: #000000;
-    padding: 10x;
+    padding: 10px;
     margin: 10px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   
-    /* 👇 Narrower width */
+    /* Narrower width */
     width: 90%;
     max-width: 910px;
   }
   
-  /* 👇 Keep the object wide so it triggers horizontal scroll */
+  /* Keep the object wide so it triggers horizontal scroll */
   .scrollable-object {
     min-width: 1000px;
-    height: 100%;         /* 👈 fill wrapper */
+    width: 1000px;
+    height: 100%;         /* fill wrapper */
     padding: 5px;
-    overflow-y: auto;     /* 👈 scroll happens here */
-    /* height: 80vh; */
+    overflow-y: auto;     /* scroll happens here */
     border: none;
     display: block;
   }
