@@ -9,21 +9,19 @@
     overflow: auto;
     height: 100vh;
     background-color: #000000;
-    padding: 4x;
-    margin: 4px auto;
+    padding: 10x;
+    margin: 10px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   
     /* 👇 Narrower width */
-    width: 96%;
     max-width: 98%;
-    /* max-width: 910px; */
   }
   
   /* 👇 Keep the object wide so it triggers horizontal scroll */
   .scrollable-object {
     min-width: 1000px;
     height: 100%;         /* 👈 fill wrapper */
-    padding: 4px;
+    padding: 3px;
     overflow-y: auto;     /* 👈 scroll happens here */
     /* height: 80vh; */
     border: none;
