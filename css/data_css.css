@@ -1,6 +1,6 @@
 .blue-container {
     background-color: #ff0033;
-    padding: 40px 0; /* Top and bottom space */
+    padding: 20px 0; /* Top and bottom space */
     display: flex;
     justify-content: center;
 }
@@ -9,13 +9,14 @@
     overflow: auto;
     height: 100vh;
     background-color: #000000;
-    padding: 10px;
-    margin: 10px auto;
+    padding: 4x;
+    margin: 4px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   
     /* 👇 Narrower width */
     width: 96%;
-    max-width: 910px;
+    max-width: 98%;
+    /* max-width: 910px; */
   }
   
   /* 👇 Keep the object wide so it triggers horizontal scroll */
