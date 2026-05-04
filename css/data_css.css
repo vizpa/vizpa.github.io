@@ -22,7 +22,7 @@
   .scrollable-object {
     min-width: 1000px;
     height: 100%;         /* 👈 fill wrapper */
-    padding: 80px;
+    padding: 10px;
     overflow-y: auto;     /* 👈 scroll happens here */
     /* height: 80vh; */
     border: none;
