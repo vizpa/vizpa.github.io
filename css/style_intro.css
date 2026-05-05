@@ -212,3 +212,14 @@ li {
      opacity: 1;
   }
 }
+
+/* Bridging data analysis and user experience - line break */
+.break {
+  display: inline;
+}
+
+@media screen and (max-width:700px) {
+  .break {
+    display: block;
+  }
+}
