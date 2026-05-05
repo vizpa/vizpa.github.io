@@ -120,8 +120,9 @@ video {
 }
 
 .uxContainer {
+    background: yellow;
     width: 100%;
-    max-width: 100%;
+    max-width: 250px;
     padding-bottom: 10px;    
     position:relative;
     left: 50%;
