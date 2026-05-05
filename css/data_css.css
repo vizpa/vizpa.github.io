@@ -24,8 +24,8 @@
   /* Keep the object wide so it triggers horizontal scroll */
   .scrollable-object {
     display: block;
-    width: 1000px;
-    min-width: 1000px;
+    width: 100%;
+    min-width: 0;
     height: 100%;         /* fill wrapper */
     padding: 5px;
     border: none;
