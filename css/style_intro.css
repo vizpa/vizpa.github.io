@@ -147,7 +147,7 @@
 
 
 li {
-  padding:0.2%;
+  margin-bottom: 8px;
 }
 
 @keyframes titleAnimation {
