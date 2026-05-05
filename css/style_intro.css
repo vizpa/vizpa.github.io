@@ -36,7 +36,7 @@
 }
 
 #line1, #lineConnector, #line2 {
-  display: inline-block;
+  display: inline;
 }
 
 /* & */
