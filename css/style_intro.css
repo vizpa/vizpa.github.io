@@ -35,13 +35,8 @@
   display: inline-block;
 }
 
-#line1,
-#line2 {
-  display: block;
-}
-
-#lineConnector {
-  display: block;
+#line1, #lineConnector, #line2 {
+  display: inline-block;
 }
 
 /* & */
