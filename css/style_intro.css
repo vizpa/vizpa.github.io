@@ -27,11 +27,11 @@
 #header span {
   animation-name: wordJump;
   animation-timing-function:ease;
-  animation-duration: .2s;
+  animation-duration: .1s;
   
   -webkit-animation-name: wordJump;
   -webkit-animation-timing-function:ease;
-  -webkit-animation-duration: .2s;
+  -webkit-animation-duration: .1s;
   display: inline-block;
 }
 
@@ -41,7 +41,7 @@
 
 #line2 {
   position: relative;
-  left: -12px;
+  left: -20px;
 }
 
 /* & */
@@ -212,22 +212,3 @@ li {
      opacity: 1;
   }
 }
-/*
-@media screen and (max-width:700px) {
-  #and {
-    transform: translateX(-50%) translateY(50%) rotate(15deg);
-  }
-  #line1 {
-    display: block;
-    transform: translateY(75%);
-  }
-  #lineConnector {
-    display: block;
-    transform: translateX(5%);
-  }
-  #line2 {
-    display: block;
-    transform: translateY(15%);
-  }
-}
-*/
