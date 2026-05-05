@@ -39,6 +39,11 @@
   display: inline;
 }
 
+#line2 {
+  position: relative;
+  left: -12px;
+}
+
 /* & */
 #and {
   font-family: 'EB Garamond', serif;
