@@ -207,7 +207,7 @@ li {
      opacity: 1;
   }
 }
-
+/*
 @media screen and (max-width:700px) {
   #and {
     transform: translateX(-50%) translateY(50%) rotate(15deg);
@@ -225,3 +225,4 @@ li {
     transform: translateY(15%);
   }
 }
+*/
