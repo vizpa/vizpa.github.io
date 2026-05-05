@@ -15,11 +15,20 @@
   padding-top: 260px;
   font-family: 'Libre Baskerville', serif;
   text-align: center;
+  
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: .7s;
+  
   -webkit-animation-name: titleAnimation;
   -webkit-animation-timing-function:ease;
   -webkit-animation-duration: .7s;
 }
 #header span {
+  animation-name: wordJump;
+  animation-timing-function:ease;
+  animation-duration: .2s;
+  
   -webkit-animation-name: wordJump;
   -webkit-animation-timing-function:ease;
   -webkit-animation-duration: .2s;
@@ -27,14 +36,25 @@
 }
 
 #line1, #lineConnector, #line2 {
-  display: inline;
-} 
+  display: inline-block;
+}
 
+/* & */
 #and {
   font-family: 'EB Garamond', serif;
   color: #ff0033;
   font-size: 1.8em;
   transform: translateX(-7%) translateY(35%) rotate(15deg);
+
+  animation-name: titleAnd;
+  animation-timing-function: ease;
+  animation-duration: .3s;
+  animation-delay: 2.1s;
+  
+  -webkit-animation-name: titleAnd;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-duration: .3s;
+  -webkit-animation-delay: 2.1s;
 }
 
 /* line1 */
@@ -58,7 +78,7 @@
 #line1 span:nth-child(5) { /* A */
   animation-delay: 1.2s;
 }
-#des span:nth-child(6) { /* n */
+#line1 span:nth-child(6) { /* n */
   animation-delay: 1.3s;
 }
 #line1 span:nth-child(7) { /* a */
@@ -75,15 +95,6 @@
 }
 #line1 span:nth-child(11) { /* t */
   animation-delay: 1.8s;
-}
-
-/* lineConnector */
-/* & */
-#lineConnector span:nth-child(12) { /* & */
-  -webkit-animation-name: titleAnd;
-  -webkit-animation-timing-function:ease;
-  -webkit-animation-duration: .3s;
-  /* animation-duration: 0s; */
 }
 
 /* line2 */
@@ -133,6 +144,38 @@
 li {
   padding:0.2%;
 }
+
+@keyframes titleAnimation {
+  0% {
+    transform: translate(0, 100px);
+    opacity: 0;
+  }
+  100% {
+     transform: translate(0, 0);
+     opacity: 1;
+  }
+}
+
+@keyframes wordJump {
+  0% {
+    transform: scaleY(1.8);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes titleAnd {
+  0% {
+    transform: translateX(0) translateY(-400%) rotate(0);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(-20%) translateY(30%) rotate(15deg);
+     opacity: 1;
+  }
+}
+
 
 @-webkit-keyframes titleAnimation {
   0% {
