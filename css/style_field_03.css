@@ -13,14 +13,14 @@ ul.exp {
 @media (max-width:1000px) {
     #skills {
         width: 400px;
-        transform: translateX(40px);
+        transform: translateX(50px);
         margin-left: -50px;
     }
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
     #skills {
         width: 250px;
-        transform: translateX(60px);
+        transform: translateX(70px);
         margin-left: -60px;
     }
 }
