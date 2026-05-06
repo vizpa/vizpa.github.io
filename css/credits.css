@@ -44,9 +44,6 @@
     .space{
       display: inline-block;
     }
-    #credits {
-        min-height: 215px;
-    }
     .cr_column {
         -ms-flex: 100%; /* IE10 */
         flex: 100%;
