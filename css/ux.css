@@ -240,11 +240,6 @@ p.menu_prevw2 {
         flex: 100%;
         max-width: 100%;
     }
-    .uxKey_column2 {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
     p.menu_prevw1 {
         font-size: .8em;
     }
