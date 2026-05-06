@@ -8,12 +8,18 @@ ul.exp {
 #skills {
     float: right;
     height: auto;
-    width: 300px;
+    width: 600px;
 }
-@media (max-width:700px) {
+@media (max-width:500px) {
     #skills {
         float: none;
-        width: 600px;
+        width: 400px;
+    }
+}
+@media (max-width:800px) {
+    #skills {
+        float: none;
+        width: 300px;
     }
 }
 .right {
