@@ -13,7 +13,9 @@ ul.exp {
 @media (max-width:1000px) {
     #skills {
         width: 400px;
-        margin-left: -80px;
+        position: relative;
+        left: 20px;
+        margin-left: -50px;
     }
 }
 @media (max-width:500px) {
