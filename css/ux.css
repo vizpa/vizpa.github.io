@@ -69,6 +69,7 @@ video {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 .uxTxt_wImg {
@@ -273,10 +274,5 @@ p.menu_prevw2 {
     p.keyTxt {
         padding: 8px;
         border-width: 3px;
-    }
-    .uxMenu_column3 {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
     }
 }
