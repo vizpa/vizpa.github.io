@@ -47,6 +47,11 @@
     #credits {
         min-height: 215px;
     }
+    .cr_column {
+        -ms-flex: 100%; /* IE10 */
+        flex: 100%;
+        max-width: 100%;
+    }
     #cr_column_2 {
         padding-top: 5px;
     }
