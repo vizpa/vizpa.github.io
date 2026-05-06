@@ -4,10 +4,11 @@ video {
 }
 
 .uxMenu_row {
+    display: -ms-flexbox; /* IE10 */
     display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    padding: 0 4px;
   }
 /* One columns key challenge*/
 .uxKey_column1 {
@@ -50,6 +51,7 @@ video {
 }
 /* Three columns */
 .uxMenu_column3 {
+    -ms-flex: 33%; /* IE10 */
     flex: 33%;
     max-width: 33%;
     padding: 10px;
