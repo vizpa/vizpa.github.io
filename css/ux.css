@@ -50,11 +50,11 @@ video {
 }
 /* Three columns */
 .uxMenu_column3 {
-    flex: 0 0 calc(33.333% - 20px);
-    max-width: calc(33.333% - 20px);
+    flex: 33%;
+    max-width: 33%;
     padding: 10px;
+    display:inline-block;
     text-align: center;
-    box-sizing: border-box;
 }
 
 /* Image column for image/text */
