@@ -10,15 +10,13 @@ ul.exp {
     height: auto;
     width: 600px;
 }
-@media (max-width:500px) {
+@media (max-width:1000px) {
     #skills {
-        float: none;
         width: 400px;
     }
 }
-@media (max-width:800px) {
+@media (max-width:500px) {
     #skills {
-        float: none;
         width: 300px;
     }
 }
