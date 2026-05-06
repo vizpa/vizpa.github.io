@@ -9,6 +9,7 @@ video {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content: center;
   }
 /* One columns key challenge*/
 .uxKey_column1 {
@@ -69,7 +70,6 @@ video {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    justify-content: center;
   }
 
 .uxTxt_wImg {
