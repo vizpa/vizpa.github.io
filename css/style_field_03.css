@@ -15,7 +15,7 @@ ul.exp {
 #skills {
     width: 400px;
     transform: translateX(40px);
-    margin-left: -40px;
+    margin-left: -50px;
 }
     }
 }
@@ -23,7 +23,7 @@ ul.exp {
     #skills {
         width: 300px;
         transform: translateX(50px);
-        margin-left: -50px;
+        margin-left: -60px;
     }
 }
 .right {
