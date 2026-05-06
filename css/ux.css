@@ -14,7 +14,7 @@ video {
 .uxKey_column1 {
     -ms-flex: 100%; /* IE10 */
     flex: 100%;
-    max-width: 900px;
+    max-width: 600px;
     padding: 10px;
     display:inline-block;
     position:relative;
@@ -120,7 +120,7 @@ video {
 }
 
 .uxContainer {
-        width: 100%;
+    width: 100%;
     max-width: 250px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -136,11 +136,20 @@ video {
 .uxMenu_text {
     background-color: white;
     opacity: .8;
+
     font-size: 16px;
     padding: 10px;
+
     border-color: #ff0033;
     border-style: solid;
     border-width: thin;
+
+    text-align: center;
+
+    width: 80%;
+    min-width: 160px;
+
+    margin: 0 auto;
 }
 
 .uxGallery {
