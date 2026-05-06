@@ -12,17 +12,18 @@ ul.exp {
 }
 @media (max-width:1000px) {
     #skills {
-        width: 400px;
-        transform: translateX(40px);
+#skills {
+    width: 400px;
+    transform: translateX(40px);
+    margin-left: -40px;
+}
     }
 }
 @media (max-width:500px) {
-    #field_03 {
-        padding: 20px 10px 20px 80px;
-    } 
     #skills {
         width: 300px;
         transform: translateX(50px);
+        margin-left: -50px;
     }
 }
 .right {
