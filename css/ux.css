@@ -251,6 +251,11 @@ p.menu_prevw2 {
     .uxMenu_text {
         padding: 8px;
     }
+    .uxMenu_column3 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 /* Responsive layout */
@@ -268,5 +273,10 @@ p.menu_prevw2 {
     p.keyTxt {
         padding: 8px;
         border-width: 3px;
+    }
+    .uxMenu_column3 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 }
