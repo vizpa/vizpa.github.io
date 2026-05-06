@@ -19,6 +19,9 @@ ul.exp {
     }
 }
 @media (max-width:500px) {
+    #field_03 {
+        padding: 20px 10px 20px 80px;
+    } 
     #skills {
         width: 300px;
     }
